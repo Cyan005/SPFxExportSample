@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "amtest-1-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/amtest1/Amtest1WebPart.js",
+          "manifest": "./src/webparts/amtest1/Amtest1WebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "Amtest1WebPartStrings": "lib/webparts/amtest1/loc/{locale}.js"
+  }
+}
